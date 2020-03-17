@@ -35,8 +35,17 @@ public class ChattyBot {
         System.out.println("2: To decompose a program into several small subroutines.");
         System.out.println("3: To determine the execution time of a program.");
         System.out.println("4: To interrupt the execution of a program.");
+        int choice = scanner.nextInt();
+        while(choice!=2) {
+            System.out.println("Please, try again.");
+            choice = scanner.nextInt();
+        }
+    }
+    public static void ans() {
+        System.out.println("Congratulations, have a nice day!");
+    }
 
-
+    public static void main(String[] args) {
 
     }
 
